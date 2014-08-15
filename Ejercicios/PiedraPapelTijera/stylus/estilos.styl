@@ -1,0 +1,95 @@
+gris_suave = #cdcdcd
+
+//---- clases repetitivas ------
+
+.linea_inferior
+	border-bottom 1px solid gris_suave
+
+.espacios
+	padding-top 1em
+	padding-bottom .5em
+
+//------------------------------
+body
+	margin 0
+
+figure
+	margin 0
+
+h1,h2,h3,h4,h5
+	margin 0
+
+ul
+	margin 0
+	padding 0
+
+#usuario
+#vs 
+#pc
+	display inline-block
+
+#vs
+	img
+		height 4em
+
+#resultado
+	background-color gris_suave
+	font-size 1.5em
+	text-align center
+
+.bienvenida
+	font-size 1.5em
+	text-align center
+
+.enfrentamiento
+	text-align center;
+	figure
+		width 30%
+		img 
+			width 90%
+
+footer
+	text-align right
+
+.instrucciones
+	text-align justify
+
+.opciones
+	h2
+		font-size 1.28em
+		padding 1em 0
+	ul
+		text-align center
+		list-style none
+		li 
+			display inline-block
+			width 18%
+			img 
+				width 100%
+			span
+				display block
+	
+.video
+	iframe
+		height 13em
+		width 100%
+
+.wrapper
+	margin 0 auto
+	max-width 800px
+	width 90%
+
+@media screen and (min-width:650px)
+
+	.instrucciones
+		vertical-align top
+		width 50%
+
+	.video
+		width 40%
+		height 100%
+		padding-left 3em
+
+	.instrucciones
+	.video
+		display inline-block
